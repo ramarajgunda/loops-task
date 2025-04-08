@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("multiplication of 5");
+        //Multiplication of table
+        let x="5";
+        for(let i=1;i<=10;i++){
+            console.log(`${x} x ${i} = ${i*x}`);
+        }
+
+
+console.log("even numbers");
+        //sum of even numbers between 1 and 50
+
+        for(let i=1;i<=50;i++){
+            if (i%2==0){
+                console.log(i);
+            }
+        }
+
+
+        console.log("odd numbers");
+        //sum of odd numbers betwen 1 and 20
+
+        for(let i=1;i<=20;i++){
+        
+            while(i%2!=0){
+                console.log(i);
+                i++;
+            }
+        
+            
+        }
+
+        //factorial of 5! using while loop
+        console.log("factirial of 5! using while loop");
+         let d=5;
+         let i=1;
+         let result=1;
+         while(i<=d){
+            result=result*i;
+            i++;
+            console.log(result);
+         }
+
+       console.log("prime numbers");
+       let i1=2;
+       while(i1<=20){
+        let isPrime =true;
+        let j=2;
+        while(j*j<=i1){
+            if(i1 % j===0){
+                isPrime = false;
+                break;
+            }
+            j++;
+        }
+        if(isPrime){
+            console.log(i1);
+        }
+        i1++;
+       }
+
+       
+
+//factorial of 5! using for loop
+// console.log("factorial of !5 for loop");
+//          //factorial of 5! for loop
+//          let g="1";
+//          for(i=5;i>=1;i--){
+//             g=g*i;
+//             console.log(g);
+//          }
+
+        
+
+    </script>
+</body>
+</html>
